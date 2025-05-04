@@ -8,12 +8,7 @@ Bot criado para o desafio de estágio da FURIA, oferecendo informações sobre j
 - 📢 **Últimos resultados** (com links para highlights)
 - 🔗 **Redes oficiais** (Instagram, Twitter, etc.)
 
-## 📸 Screenshots
-| Menu Principal | Elenco | Próximo Jogo | Últimos Jogos | Redes Sociais |
-|---------------|--------|--------------|---------------|---------------|
-| ![Menu](https://github.com/Joaogmos/furia-csgo-chatbot/blob/main/Screenshots/Elenco.pngMenu_Principal.png) | ![Elenco](screenshots/Elenco.png) | ![Próximo Jogo](screenshots/Proximo_Jogo.png) | ![Últimos Jogos](screenshots/Ultimos_Jogos.png) | ![Redes Sociais](screenshots/Redes_Sociais.png) |
-
-## ⚙️ Tecnologias
+## ⚙️ Tecnologias usadas
 - ManyChat 
 - Telegram Bot API
 - GitHub Pages 
