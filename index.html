@@ -1,45 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>FURIA CS:GO Bot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURIA CS:GO - ChatBot</title>
     <style>
-        body { 
-            background: #000000; 
-            color: #FFFFFF; /* Branco */
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: 'Arial', sans-serif;
             text-align: center;
-            font-family: Arial, sans-serif;
-            padding: 50px;
             margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
-        a {
-            color: #FFFFFF; /* Branco */
-            text-decoration: none;
-            border: 2px solid #FFFFFF; /* Branco */
-            padding: 10px 20px;
-            border-radius: 5px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #FF0000;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .btn {
             display: inline-block;
+            background-color: #FF0000;
+            color: white;
+            padding: 12px 30px;
             margin: 20px 0;
-            transition: 0.3s;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
         }
-        a:hover {
-            background: #FFFFFF; /* Branco */
-            color: #000000; /* Preto */
+        .btn:hover {
+            background-color: #CC0000;
+            transform: scale(1.05);
         }
         .footer {
             margin-top: 40px;
-            font-size: 14px;
-            color: #CCCCCC; /* Cinza claro */
+            font-size: 0.9rem;
+            color: #AAAAAA;
         }
     </style>
 </head>
 <body>
-    <h1>FURIA CS:GO CHATBOT</h1>
-    <p>Bot não-oficial para acompanhar o time</p>
-    <a href="https://t.me/Furia_EsportsCSchatbot?start=w39368755">ACESSAR NO TELEGRAM</a>
-    
-    <div class="footer">
-        Desenvolvido por: João Guilherme Messias de Oliveira Santos<br>
-        Contato: <a href="mailto:10426110@mackenzista.com.br" style="border:none; padding:0;">10426110@mackenzista.com.br</a>
+    <div class="container">
+        <img src="https://furia.gg/images/logo.png" alt="Logo FURIA" class="logo">
+        <h1>FURIA CS:GO CHATBOT</h1>
+        <p>Bot não-oficial para acompanhar jogos, elenco e notícias do time</p>
+        <a href="https://t.me/Furia_EsportsCSchatbot" class="btn">ACESSAR NO TELEGRAM</a>
+        <div class="footer">
+            Desenvolvido por: João Guilherme Messias de Oliveira Santos<br>
+            Contato: <a href="mailto:10426110@mackenzista.com.br" style="color: #FF0000;">10426110@mackenzista.com.br</a>
+        </div>
     </div>
 </body>
 </html>
