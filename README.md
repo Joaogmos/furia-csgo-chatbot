@@ -19,8 +19,11 @@ Bot criado para o desafio de estágio da FURIA, oferecendo informações sobre j
 ├── README.md          
 ├── index.html         
 └── screenshots/       
-    ├── menu.png
-    └── elenco.png
+    ├── Menu_Principal.png
+    └── Proximo_Jogo.png
+    └── Ultimos_Jogos.png
+    └── Elenco.png
+    └── Redes_Sociais.png
 ```
 
 ## 🔗 Links Úteis
